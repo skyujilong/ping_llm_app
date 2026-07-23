@@ -1,0 +1,38 @@
+[
+  {
+    "step": "01-discovery-constraints",
+    "state": "complate"
+  },
+  {
+    "step": "02-tooling-config",
+    "state": "complate"
+  },
+  {
+    "step": "03-model-contracts",
+    "state": "complate"
+  },
+  {
+    "step": "04-adapters-storage-http",
+    "state": "complate"
+  },
+  {
+    "step": "05-provider-domain",
+    "state": "complate"
+  },
+  {
+    "step": "06-app-integration",
+    "state": "complate"
+  },
+  {
+    "step": "07-ui-workflows",
+    "state": "runing"
+  },
+  {
+    "step": "08-tests-docs-cleanup",
+    "state": "pending"
+  },
+  {
+    "step": "09-android-verification",
+    "state": "pending"
+  }
+]
