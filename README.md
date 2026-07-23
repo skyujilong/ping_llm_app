@@ -1,4 +1,4 @@
-# LLM Ping
+# TokenPing
 
 一款 Flutter 编写的 LLM 服务商 Token 用量调度工具。通过 Ping 触发服务商的计时起点，实时掌握各服务商的在线状态与响应延迟，从而更合理地分配单位时间内的 Token 用量，避免额度浪费与速率超限。
 
@@ -53,7 +53,7 @@ lib/
 │   ├── dashboard_screen.dart      # 首页 Dashboard
 │   └── providers_screen.dart      # 服务商配置页
 ├── services/
-│   ├── ping_service.dart          # LLM Ping 请求逻辑
+│   ├── ping_service.dart          # TokenPing 请求逻辑
 │   ├── provider_store.dart        # 应用状态管理
 │   └── storage_service.dart       # 本地持久化
 ├── theme/
