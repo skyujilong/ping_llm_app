@@ -25,7 +25,7 @@ enum ProviderType {
   local('本地部署', 'http://localhost:11434', 'llama3', 'L', 0xFF6b7280),
   volcengine(
     '火山方舟 (豆包)',
-    'https://ark.cn-beijing.volces.com/api/v3',
+    'https://ark.cn-beijing.volces.com/api/coding/v3',
     'doubao-seed-1-6-250615',
     'V',
     0xFF0b57d0,

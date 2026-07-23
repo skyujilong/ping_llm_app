@@ -279,8 +279,8 @@ class PingService implements ProviderPingService {
         ),
       );
       return _parseModelList(response.data, provider.type)..sort();
-    } on DioException {
-      rethrow;
+    } on DioException catch (e) {
+      throw Exception(_normalizeError(e));
     }
   }
 
